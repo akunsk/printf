@@ -7,8 +7,9 @@ int _printf(const char *format, ...);
 
 ## :books: DESCRIPTION :books:
 
-printf() functions are a series of default inbuilt library functions in C programming language which produces output according to a format specified. They are available in C library by default. These functions are declared and defined in stdio.h which is a header file in C language. To make use of the printf() and scanf() functions, we have to include stdio.h in the library functions in C#.
-In C# programming language, printf() function used to print the character, string, float, integer, octal and hexadecimal values onto the output screen.
+printf() this is a function that is an inbuilt or a default library function in C# programming language which is readily available in C library. These functions are declared and related macros are defined in stdio.h which is a header file in C language.
+We have to include stdio.h file as shown in below C program to make use of these printf() and scanf() library functions in C language.
+In C programming language, printf() function used to print the character, string, float, integer, octal and hexadecimal values onto the output screen.
 We use printf() function with %d format specifier to display the value of an integer variable.
 Similarly %c is used to display character, %f for float variable, %s for string variable, %lf for double and %x for hexadecimal variable.
 To generate a newline,we use \n in C printf() statement.
@@ -37,21 +38,21 @@ X   prints a hexadecimal number in caps
 .SH RETURN
 The function will return the number of characters printed. If unsuccessful the function will return null.
 .SH EXAMPLES
-To print "ALX is hard" you would do as follow, where class is a pointer to a string:
+To print "Today is Tuesday" you would do as follow, where day is a pointer to a string:
 
- #include "main.h"
- _printf("ALX is %s", class);
+ #include "Holberton.h"
+ _printf("Today is %s", day);
 
 To print "It is 1" you would do as follows, where time is a pointer to a integer:
 
- #include "main.h"
+ #include "Holberton.h"
  _printf("It is %d", time);
 
 ## :hash: Bot Twitter :hash: 
 
- * [@akunsk](https://twitter.com/akunsk)  
- * [@torivicky](https://twitter.com/torivicky)  
+ * [@DouiriEddin](https://twitter.com/DouiriEddin)  
+ * [@AfineSami](https://twitter.com/AfineSami)  
 ### :email: mail :email:
 
- * [akuns kingsley](akunskingsley@gmail.com.com) 
- * [Uwaezuoke Chigozirim](torivicky06@gmail.com)
+ * [Lafine Sami](1124@holbertonschool.com) 
+ * [Chems Eddin Douiri](1123@holbertonschool.com)
