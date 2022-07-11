@@ -1,7 +1,8 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
 #include <stdarg.h>
 #include <stdio.h>
+
 /**
  * struct vtype - struct vtype
  * @tp: tp
@@ -44,4 +45,5 @@ void format_o(va_list valist, char *buffer, int *index);
 void format_b(va_list valist, char *buffer, int *index);
 void format_r(va_list valist, char *buffer, int *index);
 void format_R(va_list valist, char *buffer, int *index);
-#endif /* MAIN_H */
+
+#endif /* HOLBERTON_H */
