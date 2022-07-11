@@ -1,5 +1,5 @@
-#ifndef _FUNCTION_PRINTF_H_
-#define _FUNCTION_PRINTF_H_
+#ifndef MAIN_H_
+#define MAIN_H_
 #include <stdarg.h>
 #include <stdlib.h>
 #include <stddef.h>
@@ -55,6 +55,18 @@ char *_strcpy(char *dest, char *src);
 void array_rev(char *arr, int len);
 int int_len(int num);
 char *ito(int n);
+int (*check_specifier(char*))(va_list);
+
+/**
+ * struct func - struct for specifier to printer
+ * @t: character to compare
+ * @f: function to handle printing
+ */
+typedef struct func
+{
+	char *t;
+	int (*f)(va_list);
+} func_t;
 char *reverse(char *s);
 
 /**
