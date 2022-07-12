@@ -48,11 +48,11 @@ To print "It is 1" you would do as follows, where time is a pointer to a integer
  #include "Holberton.h"
  _printf("It is %d", time);
 
-## :hash: Bot Twitter :hash: 
+## :hash: Bot Twitter :hash:
 
- * [@DouiriEddin](https://twitter.com/DouiriEddin)  
- * [@AfineSami](https://twitter.com/AfineSami)  
+ * [@akunsk](https://twitter.com/akunsk)
+ * [@torivicky](https://twitter.com/torivicky)
 ### :email: mail :email:
 
- * [Lafine Sami](1124@holbertonschool.com) 
- * [Chems Eddin Douiri](1123@holbertonschool.com)
+ * [Akuns Kingsley](akunskingsley@gmail.com.)
+ * [Tori Vicky](torivicky06@gmail.com)
